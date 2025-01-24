@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "build": "npm build"
-
+    "build": "npm run build"
   },
   "author": "",
   "license": "ISC",
