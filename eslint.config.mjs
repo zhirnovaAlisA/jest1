@@ -6,7 +6,7 @@ export default [
   {
     languageOptions: {
       globals: {
-        ...globals.browser, // Используем корректное объединение объектов
+        ...globals.browser, // Используем корректное объединение глобальных переменных
       },
     },
   },
