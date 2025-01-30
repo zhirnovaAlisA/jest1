@@ -1,4 +1,6 @@
 import lifeCounter from '../src/life_counter';
+import { test, expect } from '@jest/globals';
+
 
 test.each([
     [{ name: 'Mage', health: 90 }, "healthy"],
